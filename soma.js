@@ -61,7 +61,7 @@ function preencherTabelaSomaDespesas() {
         // Altere o título e o texto do corpo do modal
         document.getElementById('modal_title').innerText = 'Aviso';
         document.getElementById('texto-corpo').innerText = 'Não há despesas para o tipo selecionado.';
-        
+
         // Exiba o modal
         $('#registraDespesas').modal('show');
     }
