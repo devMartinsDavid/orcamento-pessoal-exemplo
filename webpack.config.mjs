@@ -15,7 +15,7 @@ export default {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
-        publicPath: '/',
+        // publicPath: '/',
     },
     module: {
         rules: [
@@ -55,9 +55,10 @@ export default {
         port: 9000,
         historyApiFallback: false,
         hot: true,
-        watchFiles: ['src/**/*'],
+        // watchFiles: ['dist/**/*'],
+        watchFiles: ['dist'],
     },
-    mode: 'development', // ou 'production'
+    mode: 'pruduction', // ou 'production'
     plugins: [
         new CopyWebpackPlugin({
             patterns: [
@@ -151,6 +152,7 @@ export default {
             new TerserPlugin(),
             new CssMinimizerPlugin(),
         ],
+        splitChunks: false,
     },
     resolve: {
         extensions: ['.js'],

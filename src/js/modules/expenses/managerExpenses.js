@@ -1,5 +1,5 @@
-import Db from '../db/db.js'
-import Expense from './expenses/expenses.js'
+import Db from "./../db/db.js";
+import Expense from "./../expenses/expenses/expenses.js";
 
 export default class ManagerExpenses {
     constructor() {

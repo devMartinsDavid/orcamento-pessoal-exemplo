@@ -1,10 +1,9 @@
 // import Db  from './../../db/db.js'
-import ManagerExpenses from '../managerExpenses.js';
-import ExpenseTable from '../table/expenseTable.js';
-import SearchExpenses from '../searchExpenses/searchExpenses.js';
-import FormatValue from '../../../utils/forms/inputs/formatValue.js';
-import { clearFilters } from '../searchExpenses/clearFilters/clearFilters.js';
-import { loadTemplate } from '../../../utils/loadtemplates/loadTemplates.js';
+import ManagerExpenses from "./../managerExpenses.js";
+import ExpenseTable from "./../table/expenseTable.js";
+import SearchExpenses from "./../searchExpenses/searchExpenses.js";
+import FormatValue from "./../../../utils/forms/inputs/formatValue.js";
+import { clearFilters } from "./../searchExpenses/clearFilters/clearFilters.js";
 
 $(document).ready( () =>  {
     const formatValue = new FormatValue();

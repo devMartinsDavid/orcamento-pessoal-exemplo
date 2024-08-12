@@ -1,5 +1,5 @@
-import ManagerExpenses from '../../managerExpenses.js';
-import ExpenseTable from '../../table/expenseTable.js';
+import ManagerExpenses from "./../../managerExpenses.js";
+import ExpenseTable from "./../../table/expenseTable.js";
 
 export function clearFilters() {
     const manager = new ManagerExpenses();

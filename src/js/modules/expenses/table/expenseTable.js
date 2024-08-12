@@ -1,4 +1,4 @@
-import FormatValue from "../../../utils/forms/inputs/formatValue.js";
+import FormatValue from "./../../../utils/forms/inputs/formatValue.js";
 
 export default class ExpenseTable {
     constructor(tableID, expenses, rowsPerPage = 5) {

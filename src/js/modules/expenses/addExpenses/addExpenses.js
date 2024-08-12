@@ -1,7 +1,7 @@
 import ManagerExpenses from "./../managerExpenses.js"
-import Expense from "../expenses/expenses.js";
-import { loadTemplate } from "../../../utils/loadtemplates/loadTemplates.js";
-import FormatValue from "../../../utils/forms/inputs/formatValue.js";
+import Expense from "./../expenses/expenses.js";
+import { loadTemplate } from "./../../../utils/loadtemplates/loadTemplates.js";
+import FormatValue from "./../../../utils/forms/inputs/formatValue.js";
 
 
 document.addEventListener('DOMContentLoaded', () => {
