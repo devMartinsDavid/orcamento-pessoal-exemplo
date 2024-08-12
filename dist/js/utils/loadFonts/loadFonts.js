@@ -1,0 +1,1 @@
+export function loadFonts(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap",e.rel="stylesheet",document.head.appendChild(e)}

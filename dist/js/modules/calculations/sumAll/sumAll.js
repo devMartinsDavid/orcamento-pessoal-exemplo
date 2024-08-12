@@ -1,0 +1,1 @@
+import Db from"../../db/db.js";const db=new Db;export function sumExpensesForType(e){let r=db.retrieveAllRecords(),t={1:0,2:0,3:0,4:0,5:0};return r.forEach((r=>{if(r.tipo===e){let e=r.valor;t[r.tipo]+=e}})),t}export function sumAll(){let e={1:0,2:0,3:0,4:0,5:0};for(let r in e){let t=sumExpensesForType(r);e[r]=t[r]}return e}

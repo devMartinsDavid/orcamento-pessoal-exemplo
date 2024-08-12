@@ -1,0 +1,1 @@
+export async function loadTemplate(e){return await fetch(e).then((e=>e.text())).then((e=>{const t=document.createElement("div");t.innerHTML=e,document.body.appendChild(t.firstElementChild)})).catch((e=>console.error("Erro ao carregar o template:",e)))}
