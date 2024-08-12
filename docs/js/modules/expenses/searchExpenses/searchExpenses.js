@@ -1,0 +1,1 @@
+export default class SearchExpenses{constructor(e){this.manager=e}search(e){return this.manager.getAllExpenses().filter((a=>Object.keys(e).every((r=>""===e[r]||("data"===r?a.data===e[r]:"tipo"===r?a.tipo===e[r]:"descricao"===r?a.descricao.includes(e[r]):"valor"===r&&a.valor===parseFloat(e[r]))))))}}

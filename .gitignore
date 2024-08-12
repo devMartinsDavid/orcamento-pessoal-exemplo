@@ -23,5 +23,5 @@ jspm_packages/
 .rts2_cache_umd/
 
 # Build directories
+dist/
 build/
-docs/

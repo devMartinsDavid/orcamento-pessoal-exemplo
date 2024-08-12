@@ -1,0 +1,1 @@
+export default class Expenses{constructor(t,s,i,a){this.data=t,this.tipo=s,this.descricao=i,this.valor=a}validateData(){for(let t in this)if(void 0===this[t]||""===this[t]||null===this[t])return!1;return!0}getFormattedDate(){const[t,s,i]=this.data.split("-");return`${i}/${s}/${t}`}}

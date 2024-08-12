@@ -1,0 +1,1 @@
+const typeExpense={1:"Alimentação",2:"Educação",3:"Lazer",4:"Saúde",5:"Transporte"};export function getExpenseName(e){return typeExpense[e]||"Tipo não especificado"}
